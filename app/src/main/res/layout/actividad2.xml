@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/muestraDatos"
@@ -52,7 +52,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
@@ -61,17 +61,17 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
         android:layout_toRightOf="@+id/muestraDatos"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        android:layout_alignParentRight="true" />
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:id="@+id/textViewPass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editTextEmail"
@@ -80,17 +80,17 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/textViewPass"
         android:ems="10"
-        android:inputType="textPassword"
-        android:layout_alignParentRight="true" />
+        android:inputType="textPassword" />
 
     <TextView
         android:id="@+id/textViewTelcel"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
@@ -99,17 +99,17 @@
 
     <EditText
         android:id="@+id/editTextTelefono"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        android:layout_below="@+id/textViewTelcel"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewTelcel"
+        android:ems="10"
+        android:inputType="phone" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editTextTelefono"
@@ -118,7 +118,7 @@
 
     <EditText
         android:id="@+id/editTextMotivo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView5"
@@ -138,7 +138,7 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/muestraDatos"
